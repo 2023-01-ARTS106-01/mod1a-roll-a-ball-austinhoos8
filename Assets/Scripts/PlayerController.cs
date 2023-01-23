@@ -20,7 +20,7 @@ public class PlayerController : MonoBehaviour
         
     }
 
-    void Onmove(InputValue movementValue)
+    void OnMove(InputValue movementValue)
     {
         Vector2 movementVector = movementValue.Get<Vector2>();
 
